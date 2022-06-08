@@ -2,7 +2,7 @@
 function getRandomIntInclusive(min, max) {
   if (typeof min !== 'number' || typeof max !== 'number') {
     return -1;
-  };
+  }
 
   if (min < 0 || max < 0) {
     return -1;
@@ -25,7 +25,7 @@ function maxLengthString(checkString, maxLength) {
     return true;
   }
 
-    return false;
+  return false;
 }
 
 maxLengthString('ааааааааа', 45);
